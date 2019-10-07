@@ -1,5 +1,5 @@
 # ICS 6B - LaTeX Templates
-Contains LaTeX template files for ICS 6B (Gassko)
+Basic LaTeX template files for ICS 6B (Gassko)
 
 # Warning 
 I just started learning LaTeX so the templates included may have errors and poor practices. These are meant for you to get started with LaTeX in this class. 
