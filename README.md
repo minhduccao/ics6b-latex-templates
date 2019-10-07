@@ -1,9 +1,21 @@
 # ICS 6B - LaTeX Templates
 Contains LaTeX template files for ICS 6B (Gassko)
 
-# Warning & Usage
-I just started learning LaTeX so the templates included may have errors and poor practices. 
-These are meant for you to get started with LaTeX in this class. You can find plenty of other resources for learning LaTeX online.
+# Warning 
+I just started learning LaTeX so the templates included may have errors and poor practices. These are meant for you to get started with LaTeX in this class. 
 
-# Extra Symbols for LaTeX
-https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
+# How to Use It
+I personally recommend using Overleaf which is an online and free LaTeX editor. 
+```
+1. Go to https://www.overleaf.com/ and make a new account & project
+2. Create a new LaTeX file (top left)
+3. Go back to this page and click on "learningBasics.tex" 
+4. Copy-paste the entire thing into the new LaTeX file you just created
+5. (OPTIONAL) Make a new LaTeX file and copy "myTemplate.tex" into it 
+```
+
+# File Explanation
+```
+learningBasics.tex | Teaches you some basic formatting and symbols for LaTeX
+myTemplate.tex     | My personal LaTeX template for assignments 
+```
