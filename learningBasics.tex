@@ -1,0 +1,53 @@
+% Template by Minhduc Cao for ICS 6B (Gassko)
+% NOTE: I just started learning LaTeX so please keep in mind that 
+% some stuff could be wrong, missing, or improper practice (:
+
+\documentclass{article}
+\usepackage{times}                      % Font: Times New Roman
+\usepackage{amssymb}                    % Package contains extra logic symbols 
+\begin{document}
+
+% Title & Key Info
+\title{Title of Assignment}
+\author{Your Name Here\\
+        Other Details Here\\
+        ICS 6B - Lecture A/B}
+\date{October 7, 2019} % You could also do \date{\today} if you want it to autofill the date
+\maketitle
+
+% Example Layout for a Question
+\section*{1.1.1}                        % The asterisk removes the automatic numbering that LaTeX does
+\subsection*{a.}
+Insert work here
+\subsection*{b.}
+Note: See next page for helpful formatting in LaTeX
+\pagebreak                              % If you want to create a new page for the following question
+                                        % Not doing this will make the next question appear right under your last one (harder for graders)
+
+% Basic Formatting in LaTeX
+\section{Section Header}                % Auto-numbered section header
+\subsection{Subsection Header}          % Auto-numbered subsection header
+abcde \\                                % \\ = Line break: makes a new line
+non-bold \textbf{bolded text}\\         % Bolded text
+\textit{italicized text}                % Italicized text
+
+\subsubsection{Subsubsection Header}    % Auto-numbered subsubsection header
+Text
+
+\section*{Useful Symbols}
+% You will need to have a $ at the beginning and 
+% end of whatever your logical statement is
+$\land$ AND / Conjunction\\
+$\neg$ NOT / Negation\\
+$\lor$ OR / Conjunction\\
+$\oplus$ XOR / Exclusive OR\\
+$\to$ Implies\\
+$\neq$ Not equal\\
+$\therefore$ Therefore \\
+$\pi$ pi\\
+
+\subsection*{Example Logical Statement}
+
+$(x \land y) \to z$
+
+\end{document}
