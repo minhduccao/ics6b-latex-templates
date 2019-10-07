@@ -11,8 +11,9 @@ I personally recommend using Overleaf which is an online and free LaTeX editor.
 2. Create a new LaTeX file (top left)
 3. Go back to this page and click on "learningBasics.tex" 
 4. Copy-paste the entire thing into the new LaTeX file you just created
-5. (OPTIONAL) Make a new LaTeX file and copy "myTemplate.tex" into it 
-6. (OPTIONAL) You can also download each .tex file and upload it to Overleaf instead
+5. Take a look at the sample LaTeX file that Overleaf creates for you to learn more
+6. (OPTIONAL) Make a new LaTeX file and copy "myTemplate.tex" into it 
+7. (OPTIONAL) You can also download each .tex file and upload it to Overleaf instead
 ```
 
 # File Explanation
