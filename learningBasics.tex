@@ -1,55 +1,44 @@
-% Template by Minhduc Cao for ICS 6B (Gassko)
-% NOTE: I just started learning LaTeX so please keep in mind that 
-% some stuff could be wrong, missing, or improper practice (:
+% Learning Basics - learningBasics.tex
+% Created by Minhduc Cao for ICS 6B (Gassko)
+% ~ A simplified guide to learning basic LaTeX for writing assignments 
 
-\documentclass{article}
-\usepackage{times}                      % Font: Times New Roman
-\usepackage{amssymb}                    % Package contains extra logic symbols 
-\begin{document}
+% ================= READ ME =================
+% 1) I just started learning LaTeX so there might be a few errors (:
+% 2) This document shows you a select few basics to get you started
+% 3) Use myTemplate.tex to get started on writing your assignments
+% 4) Use symbols.tex to copy commonly used symbols in this course
 
-% Title & Key Info
-\title{Title of Assignment}
-\author{Your Name Here\\
+\documentclass[letterpaper]{article}    % Sets size of document to US letter paper
+\usepackage[margin=1in]{geometry}       % Sets margin to 1 inch to give you more space for work
+\usepackage{times}                      % Font
+\usepackage{amssymb}                    % Gives you extra logic symbols 
+%\hbadness=99999                        % Delete the % at the beginning to removes typeset error notifications (usually not a big deal)
+\begin{document}                        % Where the document starts
+
+% >>>>> TITLE AND KEY INFO <<<<<
+\title{Title of Assignment}             % Title should be in the curly brackets
+\author{Your Name Here\\                % You can use \\ to move to the next line for text, it can be placed before or after text depending on what you want
         Other Details Here\\
         ICS 6B - Lecture A/B}
-\date{October 7, 2019} % You could also do \date{\today} if you want it to autofill the date
-\maketitle
+\date{\today}                           % You can manually write in a date as well
+\maketitle                              % You need this otherwise the title won't show up
 
-% Example Layout for a Question
+% >>>>> EXAMPLE QUESTION LAYOUT <<<<<
 \section*{1.1.1}                        % The asterisk removes the automatic numbering that LaTeX does
-\subsection*{a.}
+\subsection*{a.}                        % Add subsections to space out the questions in each section
 Insert work here
 \subsection*{b.}
-Note: See next page for helpful formatting in LaTeX
-\pagebreak                              % If you want to create a new page for the following question
+$(x \land y) \to z$                     % Example logical statement; NOTE: expressions that use logical operators MUST have a DOLLAR SIGN at the beginning and end
+\pagebreak                              % HIGHLY RECOMMENDED to create a new page for the following question
                                         % Not doing this will make the next question appear right under your last one (harder for graders)
 
-% Basic Formatting in LaTeX
-\section{Section Header}                % Auto-numbered section header
-\subsection{Subsection Header}          % Auto-numbered subsection header
-abcde\\                                 % \\ = Line break: makes a new line
-non-bold \textbf{bolded text}\\         % Bolded text
-\textit{italicized text}                % Italicized text
-
+% >>>>> LESS IMPORTANT INFO <<<<<
+\begin{center}                          % Centers a block of info
+\section{Less Important info}           % Leaving out the asterisk (*) gives auto-numbers the section
+% Comment text                          % Having the % sign before a line makes it a comment which is ignored by LaTeX
+non-bold \textbf{bolded text}           % Bolded text
+\\\textit{italicized text}              % Italicized text
 \subsubsection{Subsubsection Header}    % Auto-numbered subsubsection header
-Text
+\end{center}                            % Closes block of info to be centered
 
-\section*{Useful Symbols}
-% You will need to have a $ at the beginning and 
-% end of whatever your logical statement is
-$\land$ AND / Conjunction\\
-$\neg$ NOT / Negation\\
-$\lor$ OR / Conjunction\\
-$\oplus$ XOR / Exclusive OR\\
-$\to$ Implies\\
-$\neq$ Not equal\\
-$\therefore$ Therefore\\
-$\exists$ Existential\\
-$\forall$ Universal\\
-$\pi$ pi
-
-\subsection*{Example Logical Statement}
-
-$(x \land y) \to z$
-
-\end{document}
+\end{document}                          % Where the document ends
