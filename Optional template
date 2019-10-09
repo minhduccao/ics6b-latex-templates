@@ -1,0 +1,51 @@
+\documentclass[a4paper]{article}
+\usepackage{probsoln}  
+\usepackage[T1]{fontenc} 
+\usepackage{enumerate}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{alltt}
+\usepackage{listings} 
+\usepackage{amssymb}
+\usepackage[
+    hmargin=2cm,
+    vmargin=2cm,
+    headsep=1em,% adjust the  vertical position of the header entry (e.g. section)
+    footskip=2em% adjust the vertical position of the footer entry (e.g. page number)
+]{geometry}
+
+\showanswers
+\newboolean{eachProblemInOnePage}
+\setboolean{eachProblemInOnePage}{true} 
+
+\begin{document}
+
+\newproblem{identifierFirst}{      % An identifier for the problem. Change it also at \useproblem
+  % Problem identification
+	\begin{large}
+ 	\hspace{\fill}\newline
+    \textbf{Exercise 1.6.1: Which expressions with predicates are propositions?}       % A title for the problem
+	\end{large}
+	\\
+Predicates \mathnormal{P,T and E} are defined below. The domain of discourse is the set of all positive integers.\\
+
+\begin{align*} 
+P(x)&:x   
+T(x,y)&:2^x = y\\
+E(x,y,z)&: x^y = z\\
+\end{align*}
+\textbf{Problems:}\\ 
+abcdefproblems
+}{ 
+
+
+}
+\useproblem{identifierFirst} % same identifier used at the definition of newproblem
+\ifthenelse{\boolean{eachProblemInOnePage}}{\newpage}{}
+.....
+
+....
+...
+...
+
+\end{document}
