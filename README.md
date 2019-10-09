@@ -13,11 +13,13 @@ I personally recommend using Overleaf which is an online and free LaTeX editor.
 4. Copy-paste the entire thing into the new LaTeX file you just created
 5. Take a look at the sample LaTeX file that Overleaf creates for you to learn more
 6. (OPTIONAL) Make a new LaTeX file and copy "myTemplate.tex" into it 
-7. (OPTIONAL) You can also download each .tex file and upload it to Overleaf instead
+7. (OPTIONAL) Make a new LaTeX file and copy "symbols.tex" into it
+8. (OPTIONAL) You can also download each .tex file and upload it to Overleaf instead
 ```
 
 # File Explanation
 ```
 learningBasics.tex | Teaches you some basic formatting and symbols for LaTeX
 myTemplate.tex     | My personal LaTeX template for assignments 
+symbols.text       | Cheatsheet of symbols commonly used in course
 ```
