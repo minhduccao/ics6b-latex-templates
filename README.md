@@ -18,7 +18,8 @@ I personally recommend using Overleaf which is an online and free LaTeX editor.
 
 # File Explanation
 ```
-learningBasics.tex | Teaches you some basic formatting and symbols for LaTeX
-myTemplate.tex     | My personal LaTeX template for assignments 
-symbols.text       | Cheatsheet of symbols commonly used in course
+learningBasics.tex   | Teaches you some basic formatting and symbols for LaTeX
+myTemplate.tex       | My personal LaTeX template for assignments 
+symbols.text         | Cheatsheet of symbols commonly used in course
+optionalTemplate.tex | LaTeX template created by Kairat Kempirbaev
 ```
