@@ -1,5 +1,7 @@
 \documentclass[a4paper]{article}
 \usepackage{probsoln}  
+\usepackage{graphicx}
+\graphicspath{ {./images/} }% NEEded to specify path for images
 \usepackage[T1]{fontenc} 
 \usepackage{enumerate}
 \usepackage{amsthm}
@@ -7,6 +9,8 @@
 \usepackage{alltt}
 \usepackage{listings} 
 \usepackage{amssymb}
+\usepackage{commath} % for absolute value%
+\usepackage{siunitx} % Required for alignment table
 \usepackage[
     hmargin=2cm,
     vmargin=2cm,
@@ -20,22 +24,10 @@
 
 \begin{document}
 
-\newproblem{identifierFirst}{      % An identifier for the problem. Change it also at \useproblem
-  % Problem identification
-	\begin{large}
- 	\hspace{\fill}\newline
-    \textbf{Exercise 1.6.1: Which expressions with predicates are propositions?}       % A title for the problem
-	\end{large}
-	\\
-Predicates \mathnormal{P,T and E} are defined below. The domain of discourse is the set of all positive integers.\\
-
-\begin{align*} 
-P(x)&:x   
-T(x,y)&:2^x = y\\
-E(x,y,z)&: x^y = z\\
-\end{align*}
-\textbf{Problems:}\\ 
-abcdefproblems
+\newproblem{identifier1}{      % An identifier for the problem. Change it also at \useproblem
+	\includegraphics[width=15cm, height=10cm]{images/1-10-10.PNG}
+	%Use images folder and store all the captures there.
+}{ \\
 }{ 
 
 
