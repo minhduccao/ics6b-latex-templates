@@ -1,15 +1,13 @@
-% Symbols Cheatsheet - symbols.tex
-% Created by Minhduc Cao for ICS 6B (Gassko)
-% ~ A list of useful symbols for logical expressions, set notations, and other equations
 \documentclass[letterpaper]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{amssymb}
 \usepackage{times}
+\usepackage{multicol}
 \hbadness=99999     % Gets rid of 'underfill' typeset errors with LaTeX
 \begin{document}
+\begin{multicols*}{2}
 
 % See list here: https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
-\section*{Symbols}
 \subsection*{Basic Logical Operators}
 $\neg$\\
 $\land$\\
@@ -29,7 +27,17 @@ $\equiv$\\
 $\not\equiv$\\
 $\therefore$\\
 
-\subsection*{Set Theory/Notation}
+\subsection*{Relational Operators}
+$<$\\
+$>$\\
+$\leq$\\
+$\geq$\\
+$\nleq$\\
+$\ngeq$\\
+$\nless$\\
+$\ngtr$\\
+
+\subsection*{Set Theory / Logic Notation}
 \subsubsection*{Basic Set Theory Symbols}
 $\in$\\
 $\notin$\\
@@ -39,8 +47,13 @@ $\supset$\\
 $\cup$\\
 $\cap$\\
 $\emptyset$\\
+$\mathbb{N}$\\
+$\mathbb{Z}$\\
+$\mathbb{R}$\\
+$\mathbb{C}$\\
 
 \subsubsection*{Other Set Theory Symbols}
+$\nexists$\\
 $\not\subset$\\
 $\subseteq$\\
 $\nsubseteq$\\
@@ -50,5 +63,5 @@ $\nsupseteq$\\
 
 \subsection*{Other Symbols}
 $\pi$\\
-
+\end{multicols*}
 \end{document}
