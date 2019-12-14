@@ -1,33 +1,19 @@
 \documentclass[letterpaper]{article}
-\usepackage[margin=1in]{geometry}
-\usepackage{amssymb}
-\usepackage{times}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{amssymb, amsthm, times}
 \usepackage{multicol}
 \hbadness=99999     % Gets rid of 'underfill' typeset errors with LaTeX
+\renewcommand{\qedsymbol}{$\blacksquare$}  % Changes QED symbol for closing a proof
 \begin{document}
 \begin{multicols*}{2}
 
 % See list here: https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
-\subsection*{Basic Logical Operators}
-$\neg$\\
-$\land$\\
-$\lor$\\
-$\oplus$\\
-$\to$\\
-$\leftrightarrow$\\
-
-\subsection*{Quantifiers}
-$\exists$\\
-$\forall$\\
-
-\subsection*{Proofs}
-=\\
-$\neq$\\
-$\equiv$\\
-$\not\equiv$\\
-$\therefore$\\
-
-\subsection*{Relational Operators}
+\subsection*{General Symbols}
+$\mathbb{N}$\\
+$\mathbb{Z}$\\
+$\mathbb{R}$\\
+$\mathbb{C}$\\
+$\mathbb{Q}$\\
 $<$\\
 $>$\\
 $\leq$\\
@@ -36,32 +22,68 @@ $\nleq$\\
 $\ngeq$\\
 $\nless$\\
 $\ngtr$\\
+$\pi$\\
+$\times$\\
+$\pm$\\
 
-\subsection*{Set Theory / Logic Notation}
-\subsubsection*{Basic Set Theory Symbols}
+
+\subsection*{CH 1: Logic}
+$\neg$\\
+$\land$\\
+$\lor$\\
+$\oplus$\\
+$\to$\\
+$\leftrightarrow$\\
+$\exists$\\
+$\forall$\\
+=\\
+$\neq$\\
+$\equiv$\\
+$\not\equiv$\\
+$\therefore$\\
+
+\subsection*{CH 2: Proofs}
+$\blacksquare$\\
+$\mid$\\
+$\nmid$\\
+
+\subsection*{CH 3: Sets}
 $\in$\\
-$\notin$\\
 $\ni$\\
 $\subset$\\
 $\supset$\\
+$\subseteq$\\
+$\nsubseteq$\\
 $\cup$\\
 $\cap$\\
 $\emptyset$\\
-$\mathbb{N}$\\
-$\mathbb{Z}$\\
-$\mathbb{R}$\\
-$\mathbb{C}$\\
-
-\subsubsection*{Other Set Theory Symbols}
+$\varnothing$\\
+$\oplus$\\
+$\notin$\\
 $\nexists$\\
 $\not\subset$\\
-$\subseteq$\\
-$\nsubseteq$\\
 $\not\supset$\\
 $\supseteq$\\
 $\nsupseteq$\\
 
-\subsection*{Other Symbols}
-$\pi$\\
+\subsection*{CH 4: Functions}
+$\lceil x \rceil$\\
+$\lfloor x \rfloor$\\
+$\circ$\\
+
+\subsection*{CH 5: Boolean Algebra}
+$\overline{text}$\\
+$\cdot$\\
+$\uparrow$\\
+$\downarrow$\\
+
+\subsection*{CH 6: Relations}
+$\prec$\\
+$\preceq$\\
+$\langle \rangle$\\
+
+\subsection*{CH 7: Computation}
+$\delta$
+
 \end{multicols*}
 \end{document}
